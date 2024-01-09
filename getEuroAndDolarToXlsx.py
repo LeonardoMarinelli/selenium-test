@@ -58,6 +58,7 @@ def writeXLSX(dolar, euro):
 
     workbook.save(file_path)
     print(f'Arquivo salvo em: {file_path}')
+    os.startfile(file_path)
 
 dolar, euro = getDolarAndEuro()
 dolar, euro = str(dolar).replace('.', ','), str(euro).replace('.', ',')
