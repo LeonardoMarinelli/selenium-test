@@ -1,0 +1,5 @@
+# Ignore all Excel documents
+*.xlsx
+
+# Ignore the LICENCE.chromedriver file
+*.chromedriver
